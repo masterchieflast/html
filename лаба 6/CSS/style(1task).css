@@ -1,0 +1,95 @@
+/*body {
+    background: url(images/wall1.jpg) no-repeat;
+    background-size: 100%;
+}*/
+body{
+    background-image: url("images/bstu.jfif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.heading {
+    text-align: center;
+    color: #E0FFFF;
+    font-family: Times New Roman, serif;
+}
+.abz {
+    text-align: center;
+    color: #30D5C8;
+
+}
+.catchwords {
+    color: blueviolet;
+}
+.id-1 {
+    text-align: center;
+    color : #FDEAA8;
+    font-family: Agency FB, serif;
+    font-size: 19px;
+}
+.id-2 {
+    text-align: center;
+    color : #FCDD76;
+    font-family: Algerian, serif;
+    font-size: 20px;
+}
+.id-3 {
+    text-align: center;
+    color : #FFA000;
+    font-family: Arial, serif;
+    font-size: 21px;
+}
+.sok {
+    color: cyan;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-repeat:  no-repeat;
+    background-image: url(images/1254957.png);
+    background-size: 20px 20px;
+    padding-left: 24px;
+}
+.id2 {
+    //list-style-type: square;
+}
+.id3 {
+    //list-style-type: circle;
+}
+.Tabl {
+    color: fuchsia;
+}
+table {
+    width: 300px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   /* border: 2px solid white; /* Прячем рамку вокруг таблицы */
+}
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid maroon; /* Параметры рамки */
+    text-align: left; /* Выравнивание по левому краю */
+}
+.first{
+    height: 400px;
+    box-sizing: border-box;
+}
+.second p, .first p{
+    text-indent: 20px;
+}
+.image1{
+    background-image: url("images/Bengal.1.webp");
+    background-repeat: no-repeat;
+    height: 390px;
+    margin: 7px 7px 7px 0;
+    width: 690px;
+    float: left;
+}
+.image2{
+    background-image: url("images/Bengal.2.webp");
+    background-repeat: no-repeat;
+    height: 390px;
+    margin: 7px 0 7px 7px;
+    width: 690px;
+    float: right;
+}

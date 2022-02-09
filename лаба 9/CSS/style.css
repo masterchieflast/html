@@ -1,0 +1,103 @@
+.grid {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.grid div {
+    border: solid 1px black;
+}
+
+.div1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    width: 80.3%;
+    height: 50px;
+}
+
+.div2, .div3, .div4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 50px;
+    width: 80%;
+}
+
+.div2 {
+    margin-right: -10%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: right;
+}
+
+.div3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    justify-self: center;
+}
+
+.div4 {
+    margin-left: -10%;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    justify-self: left;
+}
+
+.div5, .div6, .div6, .div7, .div8, .div11 {
+    margin-top: 10%;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+p {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 25px;
+    text-align: center;
+}
+
+.div5, .div11 {
+    width: 35%;
+}
+
+.div9 {
+    margin-top: 10%;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.div9, .div10 {
+    margin-right: -32%;
+    margin-left: 32%;
+    width: 130%;
+}
+
+.div8{
+    width: 130%;
+}
+.div10 {
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.div11 {
+    justify-self: right;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.div6{
+    width: 120%;
+    margin-right: 60%;
+    margin-left: -62%;
+}
+.div7{
+    width: 130%;
+    margin-left: -40%;
+}
+

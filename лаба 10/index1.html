@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title>
+</head>
+<style>
+    ul {
+        list-style: none;
+    }
+
+    li {
+        float: left;
+        padding: 0.5%;
+        background: mediumpurple;
+        color: white;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    @media (max-width: 560px) {
+
+        .top > li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .no_submenu {
+            visibility: hidden;
+        }
+
+        .submenu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+            -webkit-transition: 0.5s ease-in-out;
+            -moz-transition: 0.5s ease-in-out;
+            -o-transition: 0.5s ease-in-out;
+            transition: 0.5s ease-in-out;
+        }
+
+        ul li:hover .submenu {
+            display: block;
+
+        }
+
+        .submenu {
+            padding: 0;
+            display: none;
+        }
+    }
+</style>
+<body>
+<div>
+    <ul class="top">
+        <li>Пункт 1
+            <ul class="submenu">
+                <li>Пункт 2</li>
+                <li>Пункт 3</li>
+                <li>Пункт 4</li>
+                <li>Пункт 5</li>
+            </ul>
+        </li>
+        <li class="no_submenu">Пункт 2</li>
+        <li class="no_submenu">Пункт 3</li>
+        <li class="no_submenu">Пункт 4</li>
+        <li class="no_submenu">Пункт 5</li>
+    </ul>
+</div>
+</body>
+</html>

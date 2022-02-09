@@ -1,0 +1,28 @@
+body{
+    background-image: url("images/WWW.jpg");
+}
+img {
+    max-width: 270px;
+    max-height: 200px;
+}
+figcaption{
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+div{
+    width: 23%;
+    height: 23%;
+    display: inline-block;
+    margin-bottom: 20px     ;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}

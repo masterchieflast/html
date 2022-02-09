@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+    font-size: 1.2em;
+}
+table {
+    margin: auto;
+    font-size: 40px;
+    empty-cells: hide;
+    border-style: none;
+    border-collapse: collapse;
+}
+tr th:nth-child(2) {
+    background: #00BFFF;
+    color: white;
+}
+table th{
+    border: 1px solid grey;
+    padding: 0;
+}
+tr th:nth-child(3) {
+    background: purple;
+    color: white;
+}
+tr th:nth-child(4) {
+    background: green;
+    color: white;
+}
+table thead tr th:nth-child(2) { background: darkblue;}
+table thead tr th:nth-child(3) { background: darkblue;}
+table thead tr th:nth-child(4) { background: darkblue;}

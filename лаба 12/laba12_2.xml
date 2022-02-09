@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<poit>
+    <person>
+        <name>Дворовенко Андрей</name>
+        <score>9</score>
+        <birth>2003</birth>
+    </person>
+    <person>
+        <name>Степанов Евгений</name>
+        <score>7</score>
+        <birth>2003</birth>
+    </person>
+    <person>
+        <name>Локтев Петя</name>
+        <score>2</score>
+        <birth>2021</birth>
+    </person>
+</poit>

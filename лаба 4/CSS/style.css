@@ -1,0 +1,11 @@
+table{
+    padding: 0;
+    background: #29627e;
+}
+tr td:nth-child(1){
+    background: #FDEAA8;
+    color: deeppink;
+}
+table tr:nth-child(1){
+    background-color: #30D5C8;
+}

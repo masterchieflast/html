@@ -1,0 +1,79 @@
+nav {
+    width: 160px;
+    height: 160px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu > li {
+    display: inline-block;
+
+    position: relative;
+}
+
+a {
+    display: block;
+    padding: 5px 50px 10px 30px;
+    text-decoration: none;
+    outline: none;
+}
+
+.submenu {
+    position: absolute;
+    width: 100%;
+}
+
+.one ul {
+    background: #ECDAD6;
+}
+
+.one ul a {
+    color: #695753;
+}
+
+.one .submenu {
+    display: none;
+    background: #b19891;
+}
+
+.one ul li:hover .submenu {
+    display: block;
+}
+
+.nav2 {
+    text-align: center;
+    margin: 0;
+}
+
+.nav2 li {
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin: 0;
+    display: inline;
+    border: 1px solid black;
+}
+
+a.picture {
+    background: url(facultet.png) no-repeat 0 0;
+    width: 20px;
+    height: 15px;
+    display: block;
+    float: left;
+}
+
+.li2 a.picture:hover {
+    background: url(facultet.png) no-repeat 0 -30px;
+}
+
+.li3 a.picture:hover {
+    background: url(facultet.png) no-repeat 0 -60px;
+}
+
+.li4 a.picture:hover {
+    background: url(facultet.png) no-repeat 0 -90px;
+}

@@ -1,0 +1,21 @@
+table, td {
+    border-spacing: 0;
+    margin: auto;
+    background: whitesmoke;
+    border: solid 2px black;
+}
+
+td {
+    width: 45px;
+    height: 45px;
+}
+
+tr:nth-child(even) td:nth-child(odd),tr:nth-child(odd) td:nth-child(even) {
+    background: black;
+}
+
+table td:first-child, table td:last-child, table tr:first-child td, tr:last-child td{
+    background: red !important;
+    width: 10px;
+    height: 10px;
+}
